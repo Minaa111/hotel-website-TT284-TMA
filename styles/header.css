@@ -1,0 +1,50 @@
+.header,
+.header .left-section,
+.header .right-section {
+    display: flex;
+    height: 108px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC300;
+}
+
+.header {
+    padding: 0px 100px;
+}
+
+.left-section {
+    gap: 10px;
+}
+
+.logo {
+    height: 80px;
+    
+}
+
+.logo, .title:hover{
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.pages-container {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.4s;
+}
+
+.header ul li a:hover {
+    border-bottom: 1px solid black;
+}
