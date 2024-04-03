@@ -78,3 +78,64 @@
 }
 
 /* Vision & Mission section */
+.vision-and-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.vision-and-mission .header {
+    font-size: 50px;
+    margin-bottom: 0px;
+
+}
+
+.vision-and-mission .paragraph {
+    font-size: 25px;
+    padding: 0px 100px;
+    margin-bottom: 90PX;
+}
+
+.three-image-collage {
+    display: flex;
+}
+
+.three-image-collage .rows{
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    height: 970px;
+}
+
+.three-image-collage .rows .img1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-row1.jpg);
+    background-size: cover;
+    background-position: center 80%;
+    border: 1px solid black;
+}
+
+.three-image-collage .rows .img2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-row2.jpg);
+    background-size: cover;
+    background-position: center 70%;
+    border: 1px solid black;
+
+}
+
+.three-image-collage .column {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+.three-image-collage .img3 {
+    width: 400px;
+    height: 968px;
+    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-column.jpg);
+    background-size: cover;
+    background-position: 90% center;
+    border: 1px solid black;
+}
