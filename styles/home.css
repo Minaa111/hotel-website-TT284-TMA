@@ -1,0 +1,80 @@
+/* Hero */
+.hero {
+    background-image: url(/repo/hotel-website-TT284-TMA/images/hero.jpg);
+    height: 970px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.hero-content .top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading1 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.hero-heading2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.hero-content .bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content .bottom-section .hero-book-button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border-style: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-content .bottom-section .hero-book-button:hover {
+    background-color: black; 
+    color: white; 
+    cursor: pointer;
+}
+
+/* Vision & Mission section */
