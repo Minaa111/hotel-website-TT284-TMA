@@ -1,0 +1,32 @@
+.booking-page .page-title {
+    font-size: 80px;
+    text-align: center;
+    color: #001D3D;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    height: 50px;
+    width: 200px; 
+    border-radius: 100px; 
+    border-style: none;
+    background-color: #FFC300; 
+    font-size: 20px; 
+    font-weight: bold;
+    color: #001D3D;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background-color: #dfab00;
+}
+
+.submit-button:active {
+    background-color: #ffdd6c;
+}

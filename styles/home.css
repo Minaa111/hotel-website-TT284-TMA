@@ -6,7 +6,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    
 }
 
 .hero::before {
@@ -87,7 +86,7 @@
 .vision-and-mission .header {
     font-size: 50px;
     margin-bottom: 0px;
-
+    background-color: white;
 }
 
 .vision-and-mission .paragraph {

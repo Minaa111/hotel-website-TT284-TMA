@@ -48,3 +48,8 @@
 .header ul li a:hover {
     border-bottom: 1px solid white;
 }
+
+/* Other pages header */
+.booking-page .header {
+    background-color: #001D3D;
+}
