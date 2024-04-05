@@ -1,6 +1,6 @@
 /* Hero */
 .hero {
-    background-image: url(/repo/hotel-website-TT284-TMA/images/hero.jpg);
+    background-image: url(/images/hero.jpg);
     height: 970px;
     background-size: cover;
     position: relative;
@@ -109,7 +109,7 @@
 .three-image-collage .rows .img1 {
     width: 100%;
     height: 50%;
-    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-row1.jpg);
+    background-image: url(/images/image-collage-row1.jpg);
     background-size: cover;
     background-position: center 80%;
     border: 1px solid black;
@@ -118,7 +118,7 @@
 .three-image-collage .rows .img2 {
     width: 100%;
     height: 50%;
-    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-row2.jpg);
+    background-image: url(/images/image-collage-row2.jpg);
     background-size: cover;
     background-position: center 70%;
     border: 1px solid black;
@@ -133,7 +133,7 @@
 .three-image-collage .img3 {
     width: 400px;
     height: 968px;
-    background-image: url(/repo/hotel-website-TT284-TMA/images/image-collage-column.jpg);
+    background-image: url(/images/image-collage-column.jpg);
     background-size: cover;
     background-position: 90% center;
     border: 1px solid black;
