@@ -53,3 +53,11 @@
 .booking-page .header {
     background-color: #001D3D;
 }
+
+.contact-us-page .header {
+    background-color: #001D3D;
+}
+
+.contact-us-page .header .title {
+    color: white;
+}
