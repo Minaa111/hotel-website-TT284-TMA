@@ -50,7 +50,8 @@
 }
 
 /* Other pages header */
-.booking-page .header {
+.booking-page .header,
+.news-and-updates-page .header {
     background-color: #001D3D;
 }
 
@@ -61,3 +62,4 @@
 .contact-us-page .header .title {
     color: white;
 }
+

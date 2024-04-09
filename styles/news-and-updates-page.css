@@ -1,0 +1,24 @@
+.news-and-updates-page {
+    color: #001D3D;
+}
+
+.section-header {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.news-and-updates-page .page-content p {
+    font-size: 20px;
+    margin-top: 0;
+}
+.page-content {
+    padding: 40px;
+}
+
+.faq {
+    font-size: 26px;
+}
+
+.faq-answer {
+    padding-left: 30px;
+}
