@@ -51,11 +51,9 @@
 
 /* Other pages header */
 .booking-page .header,
-.news-and-updates-page .header {
-    background-color: #001D3D;
-}
-
-.contact-us-page .header {
+.news-and-updates-page .header,
+.contact-us-page .header,
+.services-page .header {
     background-color: #001D3D;
 }
 
